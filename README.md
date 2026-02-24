@@ -29,13 +29,13 @@ Goal: Provide benchmarks for budget-limited environments and FortiGate-integrate
 
 ## Tools & Links
 
-T-Pot honeypot: https://github.com/telekom-security/tpotce
-FortiGate VM evaluation: https://www.fortinet.com/products/next-generation-firewall/fortigate-vm
-Shuffle SOAR: https://shuffler.io / https://github.com/Shuffle/Shuffle
-Wazuh: https://wazuh.com / https://documentation.wazuh.com
-Cortex (enrichment): https://cortex.thehive-project.org / https://github.com/TheHive-Project/Cortex
+T-Pot honeypot: https://github.com/telekom-security/tpotce  
+FortiGate VM evaluation: https://www.fortinet.com/products/next-generation-firewall/fortigate-vm  
+Shuffle SOAR: https://shuffler.io / https://github.com/Shuffle/Shuffle  
+Wazuh: https://wazuh.com / https://documentation.wazuh.com  
+Cortex (enrichment): https://cortex.thehive-project.org / https://github.com/TheHive-Project/Cortex  
 TheHive (case management): https://thehive-project.org / https://github.com/TheHive-Project/TheHive
-Filebeat (log forwarding): https://www.elastic.co/beats/filebeat
+Filebeat (log forwarding): https://www.elastic.co/beats/filebeat    
 
 ## Setup Instructions (Initial)
 
