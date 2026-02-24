@@ -64,7 +64,7 @@ Response latency (seconds from alert to completion)
 False positive rate in workflows
 Resource use (average CPU/RAM via htop)
 
-Thesis Structure (IMRAD)
+## Thesis Structure (IMRAD)
 
 Introduction: background, problem, purpose, aims
 Methods: testbed, deployment, data flow, validation, metrics
