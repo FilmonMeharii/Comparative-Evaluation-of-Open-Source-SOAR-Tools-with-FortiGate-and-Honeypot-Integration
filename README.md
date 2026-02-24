@@ -17,7 +17,8 @@ using identical real-world attack data from T-Pot honeypot sensors and FortiGate
 
 Goal: Provide benchmarks for budget-limited environments and FortiGate-integrated setups.
 
-Key elements:
+## Key elements:
+
 - T-Pot honeypot (sensors: Cowrie, Dionaea, Glastopf, Honeytrap, Suricata)
 - FortiGate NGFW (syslog/IPFIX export)
 - 30 days real exposure + generated attacks (Nmap, Hydra, Metasploit)
@@ -26,7 +27,7 @@ Key elements:
 - Metrics: playbook success rate, response latency, false positive rate in workflows, resource use
 
 
-  Tools & Links
+## Tools & Links
 
 T-Pot honeypot: https://github.com/telekom-security/tpotce
 FortiGate VM evaluation: https://www.fortinet.com/products/next-generation-firewall/fortigate-vm
@@ -36,7 +37,7 @@ Cortex (enrichment): https://cortex.thehive-project.org / https://github.com/The
 TheHive (case management): https://thehive-project.org / https://github.com/TheHive-Project/TheHive
 Filebeat (log forwarding): https://www.elastic.co/beats/filebeat
 
-Setup Instructions (Initial)
+## Setup Instructions (Initial)
 
 Create 4 Ubuntu 22.04 VMs (8 GB RAM, 4 cores, 200 GB disk each):
 VM 1: T-Pot honeypot (internet-facing)
@@ -44,7 +45,7 @@ VM 2: FortiGate evaluation VM
 VM 3: Shuffle SOAR
 VM 4: Wazuh + Cortex + TheHive
 
-Install T-Pot on VM 1:textgit clone https://github.com/telekom-security/tpotce
+Install T-Pot on VM 1: git clone https://github.com/telekom-security/tpotce
 cd tpotce
 ./install.shActivate sensors in config: Cowrie, Dionaea, Glastopf, Honeytrap, Suricata.
 Deploy FortiGate VM (evaluation license from Fortinet site after FortiCare registration).
@@ -72,7 +73,9 @@ Discussion: tool comparison, differences, limitations, recommendations
 
 License
 MIT License 
-Contact
+
+
+## Contact
 Filmon Mehari Gebrezghi – filmon-mehari.gebrezghi@student.hv.se
 Alphonse Joseph – alphonse.joseph@student.hv.se
 
@@ -91,5 +94,5 @@ Logs from T-Pot and FortiGate feed both SOAR tools identically:
     C2 --> E
     D --> F[Playbook Execution<br>Automated Response Metrics]
     E --> F
-    '''
+    
 
