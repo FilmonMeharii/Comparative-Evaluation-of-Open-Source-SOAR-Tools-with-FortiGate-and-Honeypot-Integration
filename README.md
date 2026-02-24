@@ -78,7 +78,7 @@ MIT License
 
 ## Contact
 
-Alphonse Joseph – alphonse.joseph@student.hv.se
+Alphonse Joseph – alphonse.joseph@student.hv.se  
 Filmon Mehari Gebrezghi – filmon-mehari.gebrezghi@student.hv.se  
 
 ## Data Flow
