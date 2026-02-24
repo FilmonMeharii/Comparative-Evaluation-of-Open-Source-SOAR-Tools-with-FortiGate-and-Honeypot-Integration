@@ -1,7 +1,6 @@
 # Comparative Evaluation of Open-Source SOAR Tools with FortiGate and Honeypot Integration
 
-Master's Thesis in Cybersecurity (EXD630, 15 HE credits)  
-Högskolan Väst    
+Master's Thesis in Cybersecurity (EXD630, 15 HE credits) Högskolan Väst    
 Students: Filmon Mehari Gebrezghi & Alphonse Joseph  
 Supervisor: Robert Andersson  
 Start year: 2025
