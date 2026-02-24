@@ -72,12 +72,14 @@ Results: tables/charts for success rate, latency, false positives
 Discussion: tool comparison, differences, limitations, recommendations  
 
 ## License
+
 MIT License 
 
 
 ## Contact
-Filmon Mehari Gebrezghi – filmon-mehari.gebrezghi@student.hv.se
+
 Alphonse Joseph – alphonse.joseph@student.hv.se
+Filmon Mehari Gebrezghi – filmon-mehari.gebrezghi@student.hv.se  
 
 ## Data Flow
 
