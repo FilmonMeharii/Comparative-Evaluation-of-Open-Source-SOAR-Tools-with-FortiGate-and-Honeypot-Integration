@@ -66,12 +66,12 @@ Resource use (average CPU/RAM via htop)
 
 ## Thesis Structure (IMRAD)
 
-Introduction: background, problem, purpose, aims
-Methods: testbed, deployment, data flow, validation, metrics
-Results: tables/charts for success rate, latency, false positives
-Discussion: tool comparison, differences, limitations, recommendations
+Introduction: background, problem, purpose, aims  
+Methods: testbed, deployment, data flow, validation, metrics  
+Results: tables/charts for success rate, latency, false positives  
+Discussion: tool comparison, differences, limitations, recommendations  
 
-License
+## License
 MIT License 
 
 
