@@ -45,18 +45,18 @@ VM 2: FortiGate evaluation VM
 VM 3: Shuffle SOAR
 VM 4: Wazuh + Cortex + TheHive
 
-Install T-Pot on VM 1: git clone https://github.com/telekom-security/tpotce
-cd tpotce
-./install.shActivate sensors in config: Cowrie, Dionaea, Glastopf, Honeytrap, Suricata.
-Deploy FortiGate VM (evaluation license from Fortinet site after FortiCare registration).
-Configure Filebeat on T-Pot (multiple outputs):textsudo filebeat modules enable cowrie dionaea glastopf suricata honeytrap
-sudo filebeat setup
-sudo systemctl restart filebeat
-Forward FortiGate syslog/IPFIX to both SOAR tools.
-Test locally: Run Nmap/Hydra from separate VM → check alerts in Shuffle and Wazuh/TheHive.
-Expose T-Pot (ufw open only sensor ports) for 30 days. Supplement with generated attacks if needed.
-
-Safety: VM snapshots, no outbound from honeypot, daily log check.
+Install T-Pot on VM 1: git clone https://github.com/telekom-security/tpotce  
+cd tpotce  
+./install.shActivate sensors in config: Cowrie, Dionaea, Glastopf, Honeytrap, Suricata.  
+Deploy FortiGate VM (evaluation license from Fortinet site after FortiCare registration).  
+Configure Filebeat on T-Pot (multiple outputs):textsudo filebeat modules enable cowrie dionaea glastopf suricata honeytrap  
+sudo filebeat setup  
+sudo systemctl restart filebeat  
+Forward FortiGate syslog/IPFIX to both SOAR tools.  
+Test locally: Run Nmap/Hydra from separate VM → check alerts in Shuffle and Wazuh/TheHive.  
+Expose T-Pot (ufw open only sensor ports) for 30 days. Supplement with generated attacks if needed.  
+ 
+## Safety: VM snapshots, no outbound from honeypot, daily log check.
 Metrics Planned
 
 Playbook success rate (% successful automated actions)
