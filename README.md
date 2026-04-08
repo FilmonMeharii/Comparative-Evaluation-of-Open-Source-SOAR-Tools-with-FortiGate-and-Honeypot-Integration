@@ -1,13 +1,10 @@
-# Comparative Evaluation of Open-Source SOAR Tools
-## with FortiGate Integration Using Real-World Honeypot Attack Data
- 
-**Master's Thesis — Cybersecurity, University West (Högskolan Väst)**  
-**Authors:** Filmon Mehari Gebrezghi & Alphonse Joseph  
-**Supervisor:** Robert Andersson | **Examiner:** Vira Shendryk  
-**Programme:** Master in Computer Science, Specialization in Cybersecurity (60 HE credits)
- 
----
- 
+# Comparative Evaluation of Open-Source SOAR Tools with FortiGate and Honeypot Integration
+
+Master's Thesis in Cybersecurity (EXD630, 15 HE credits) Högskolan Väst Trollhätan
+Students: Filmon Mehari Gebrezghi & Alphonse Joseph  
+Supervisor: Robert Andersson  
+Start year: 2025
+
 ## Overview
  
 This repository contains all configuration files, playbooks, pipeline definitions, and scripts used in the empirical comparison of two open-source SOAR platforms:
